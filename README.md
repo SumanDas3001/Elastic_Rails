@@ -51,6 +51,25 @@ sudo systemctl stop elasticsearch.service
   "tagline" : "You Know, for Search"
 }
 ```
+### Rails
+> Elasticsearch gem
+- As described in the overview, we are going to use existing gems to integrate with elasticsearch, the elasticsearch-rails & elasticsearch-model gems.
+
+- Open your Gemfile and add the following lines:
+```
+gem 'elasticsearch-model', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: 'master'
+gem 'elasticsearch-rails', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: 'master'
+```
+- Now install this two gemfile
+```
+bundle
+```
+
+
+
+
+
+
 
 
 
