@@ -53,7 +53,7 @@ sudo systemctl stop elasticsearch.service
 ```
 ### Rails
 > Elasticsearch gem
-- As described in the overview, we are going to use existing gems to integrate with elasticsearch, the elasticsearch-rails & elasticsearch-model gems.
+- We are going to use existing gems to integrate with elasticsearch, the elasticsearch-rails & elasticsearch-model gems.
 
 - Open your Gemfile and add the following lines:
 ```
