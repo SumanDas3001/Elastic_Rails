@@ -57,11 +57,6 @@ sudo systemctl stop elasticsearch.service
 
 - Open your Gemfile and add the following lines:
 ```
-gem 'elasticsearch-model', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: 'master'
-gem 'elasticsearch-rails', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: 'master'
-```
-OR 
-```
 gem 'elasticsearch-model', '~> 7.0'
 gem 'elasticsearch-rails', '~> 7.0'
 ```
