@@ -60,7 +60,7 @@ sudo systemctl stop elasticsearch.service
 gem 'elasticsearch-model', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: 'master'
 gem 'elasticsearch-rails', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: 'master'
 ```
-- OR 
+OR 
 ```
 gem 'elasticsearch-model', '~> 7.0'
 gem 'elasticsearch-rails', '~> 7.0'
