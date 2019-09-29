@@ -1,5 +1,6 @@
 
 # Using Elasticsearch in a Rails application
+### Install Elasticsearch
 
 > Install Elasticsearch with Debian Package
 ```
