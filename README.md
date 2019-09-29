@@ -1,24 +1,11 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Using elasticsearch in a Rails application
 
-Things you may want to cover:
+> Install Elasticsearch with Debian Package
+```
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.3.2-amd64.deb
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.3.2-amd64.deb.sha512
+shasum -a 512 -c elasticsearch-7.3.2-amd64.deb.sha512 
+sudo dpkg -i elasticsearch-7.3.2-amd64.deb
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
