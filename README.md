@@ -60,7 +60,12 @@ sudo systemctl stop elasticsearch.service
 gem 'elasticsearch-model', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: 'master'
 gem 'elasticsearch-rails', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: 'master'
 ```
-- Now install this two gemfile
+- OR 
+```
+gem 'elasticsearch-model', '~> 7.0'
+gem 'elasticsearch-rails', '~> 7.0'
+```
+- Now install this two gem
 ```
 bundle
 ```
